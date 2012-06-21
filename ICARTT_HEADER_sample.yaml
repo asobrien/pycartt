@@ -192,14 +192,26 @@ NORMAL_COMMENTS:
                                             #  corresponding to the -8888’s flag 
                                             #  in the data records.
     
-    PROJECT_INFO: http://sesamestreet.com       #Study start & stop dates, web links, etc.
-    STIPULATIONS_ON_USE: This data probably isn't publishable (for obvious reasons). #(self explanatory).
-    OTHER_COMMENTS: #Any other relevant information.
-    REVISION: RA #R# See file names discussion.
+    #Study start & stop dates, web links, etc.
+    PROJECT_INFO: http://sesamestreet.com       
+    STIPULATIONS_ON_USE:    >
+                            This data probably isn't publishable 
+                            (for obvious reasons). 
+    OTHER_COMMENTS:                         #Any other relevant information.
+    REVISION: RA                            # R# See file names discussion.
+    
+    # Comments specific to this data revision. The revision numbers and the 
+    #  associated comments are cumulative in the data file. This is required in 
+    #  order to track the changes that have occurred to the data over time. 
+    #  Pre-pend the information to this section so that the latest revision 
+    #  number and comments always start this part of the header information. 
+    #  The latest revision data should correspond to the revision date on 
+    #  Line 7 of the main file header.
     RA: First published data, subject to calibration uncertainties.
-    #R#: comments specific to this data revision. The revision numbers and the associated comments are cumulative in the data file. This is required in order to track the changes that have occurred to the data over time. Pre-pend the information to this section so that the latest revision number and comments always start this part of the header information. The latest revision data should correspond to the revision date on Line 7 of the main file header.
-
-CUSTOM_COMMENTS: # Create your own special comment fields here, any blank fields are omitted. There's no limit on what you can enter
+    
+# Create your own special comment fields here, any blank fields are omitted. 
+#  There's no limit on what you can enter
+CUSTOM_COMMENTS: 
     RESTRICTIONS_ON_USE: 
     INSTRUMENT_OPERATOR: 
     SHIPPING_ADDRESS:   | 
@@ -210,9 +222,11 @@ CUSTOM_COMMENTS: # Create your own special comment fields here, any blank fields
                         123 Sesame St.
                         New York, NY 10001 
 
-DATA_MD5_HASH: # should have a md5 of the data (only!) to ensure that it is correct
-            # if 'TRUE' generates during processing
-            # if a value is entered, that is what is diplayed
-            # else if empty, does not generate a data hash
+# should have a md5 of the data (only!) to ensure accuracy
+# if 'TRUE' generates during processing
+# if a value is entered, that is what is diplayed
+# else if empty, does not generate a data hash
+DATA_MD5_HASH:
+            
    
 ...                                             # END YAML STREAM
