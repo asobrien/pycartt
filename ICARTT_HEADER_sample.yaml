@@ -152,16 +152,16 @@ NORMAL_COMMENTS:
                         New York, NY 10001
                         bigbird@sesamest.com
 
-   # Data Manager -- Name, affiliation, phone number, mailing address, email 
-   #  address and/or fax number.
-   DM_CONTACT_INFO:     |
-                         Cookie Monster
-                         Senior Scientist
-                         Dept. of Baked Goods
-                         2 Evenprime Ln.
-                         NY, NY 10010
-                         (555) 555-2222
-                         cookiemonster@sesamest.com
+    # Data Manager -- Name, affiliation, phone number, mailing address, email 
+    #  address and/or fax number.
+    DM_CONTACT_INFO:    |
+                        Cookie Monster
+                        Senior Scientist
+                        Dept. of Baked Goods
+                        2 Evenprime Ln.
+                        NY, NY 10010
+                        (555) 555-2222
+                        cookiemonster@sesamest.com
                      
     # Instrument description, sampling technique and peculiarities, 
     #  literature references, etc.     
