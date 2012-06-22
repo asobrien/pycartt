@@ -4,6 +4,13 @@
 
 # Import the yaml
 import yaml
-
-f = open(fin, 'r')
-hdr = yaml.load(f)
+def loadyaml(fin):
+    """
+    Loads a yaml file into the assigned variable:
+    hdr = loadyaml(fin)
+    
+    hdr.keys() gives the dictionary
+    """
+    f = open(fin, 'r')
+    hdr = yaml.load(f)
+    return hdr
